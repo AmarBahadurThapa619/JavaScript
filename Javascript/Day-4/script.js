@@ -47,3 +47,39 @@
 // } while(i<=5);
 
 //-----------------for-of loop-----------------//
+
+/*The for-of loop in JavaScript is used to iterate over
+the values of iterable objects such as arrays, strings, maps, sets, etc.*/
+
+// let name = "Spiderman";
+// let size = 0;
+// for(let val of name){
+//     //iterator -> characters
+//     console.log("val =", val);
+//     size++;
+// }
+// console.log("String size =", size);
+
+//-----------------for-in loop----------------//
+
+/*The for...in loop in JavaScript is used to iterate
+over the properties (keys) of an object*/
+
+// let student = {
+//     name: "Spiderman",
+//     age: 20,
+//     cgpa: 7.2,
+//     isPass: true,
+// };
+
+// for(let key in student){
+// console.log("key =", key, "Value =", student[key]);
+// }
+
+//Practice(Q1)-Print all even numbers from 0 to 100.
+
+for(let num = 0; num <= 100; num++){
+    if(num % 2 === 0){
+        console.log(num, "is a even number");
+    }
+}
