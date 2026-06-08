@@ -174,6 +174,8 @@ These are built-in functions to manipulate a string
 3. str.trim() //removes whitespaces
 4. str.slice(start, end?)--> returns part of string
 5. str1.concat(str2)//joins str2 with str1
+6. str.replace(searchVal, newVal)
+7. str.charAt(idx)
 */
 
 //----------------------str.toUpperCase()-------------------------//
