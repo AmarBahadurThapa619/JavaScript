@@ -243,8 +243,19 @@ These are built-in functions to manipulate a string
 
 //---------------------str.charAt(idx)------------------------//
 
-let str = "hello";
-str = str.replace("lo", "p"); 
-// console.log(str.charAt(1)); //e
-console.log(str); //hmllo
+// let str = "hello";
+// str = str.replace("lo", "p"); 
+// // console.log(str.charAt(1)); //e
+// console.log(str); //hmllo
 
+/*Prompt the user to enter their full name. Generate a username for them
+based on the input. Start username with @, followed by their full name and ending with
+fullname length
+
+eg: user name = "spiderman", username should be "@spiderman9
+*/
+
+// let fullName = prompt("Enter your full name without space");
+// let userName = "@".concat(fullName) + fullName.length;
+// let userName = "@"+ fullName + fullName.length;
+// console.log(userName);
